@@ -5,4 +5,6 @@ app.get("/",(req,res)=>{
     res.send("thsi is home page")
 })
 
-app.listen(3200)
+app.listen(3200,()=>{
+    console.log("server is running");
+})
